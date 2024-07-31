@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/appimage"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appimage"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Foodie"
+        tools:targetApi="34">
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDataChanger"
+            android:exported="false" />
+        <activity
+            android:name=".EditProducts"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Orders"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmOrder"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayProduct"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Foodie.NoActionBar" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".NewProduct"
+            android:exported="false" />
+        <activity
+            android:name=".AddProducts"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
